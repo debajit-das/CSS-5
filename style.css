@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body {
+  color: white;
+  line-height: 1.2;
+}
+.top {
+  height: 100vh;
+  background-image: url("img1.png");
+  background-size: cover;
+  background-position: center;
+}
+.text1 {
+  padding: 50px 189px 0px 189px;
+}
+#text,
+h1 {
+  font-size: 76px;
+  font-weight: 100;
+}
+#name {
+  font-size: 25px;
+  font-weight: 600;
+}
+.text2 {
+  padding: 0px 189px;
+}
+.description {
+  background-color: black;
+  padding: 20px 0px;
+  text-align: center;
+}
+h1 span {
+  font-size: 100px;
+  font-weight: 100;
+}
+.work {
+  height: 70vh;
+  color: black;
+  margin: 45px 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.work1 {
+  display: flex;
+  justify-content: center;
+}
+.work2 {
+  display: flex;
+  justify-content: center;
+}
+.work3 {
+  display: flex;
+  justify-content: center;
+}
+.box1,
+.box2,
+.box3 {
+  padding: 30px 10px;
+}
+.imagecontainer {
+  height: 400px;
+  width: 320px;
+  border-radius: 11px;
+  box-shadow: 4px 4px 4px #bdb9b9;
+  transition: 0.2s ease-in;
+}
+.imagecontainer:hover {
+  transform: scale(1.05);
+}
+.about {
+  height: 50vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.contact {
+  background-color: #515603;
+}
+.aboutme {
+  background-color: #722300;
+}
+#contactme {
+  font-size: 50px;
+  font-weight: lighter;
+}
+.information {
+  padding: 35px 30px;
+}
+footer {
+  padding: 15px;
+  font-size: 18px;
+  background-color: black;
+  text-align: center;
+}
