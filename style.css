@@ -33,12 +33,11 @@ h1 {
   padding: 20px 0px;
   text-align: center;
 }
-h1 span {
+#description1 {
   font-size: 100px;
   font-weight: 100;
 }
 .work {
-  height: 70vh;
   color: black;
   margin: 45px 100px;
   display: grid;
@@ -49,17 +48,7 @@ h1 span {
   display: flex;
   justify-content: center;
 }
-.work2 {
-  display: flex;
-  justify-content: center;
-}
-.work3 {
-  display: flex;
-  justify-content: center;
-}
-.box1,
-.box2,
-.box3 {
+.box {
   padding: 30px 10px;
 }
 .imagecontainer {
@@ -73,7 +62,6 @@ h1 span {
   transform: scale(1.05);
 }
 .about {
-  height: 50vh;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
@@ -83,7 +71,7 @@ h1 span {
 .aboutme {
   background-color: #722300;
 }
-#contactme {
+.contactme {
   font-size: 50px;
   font-weight: lighter;
 }
@@ -91,7 +79,7 @@ h1 span {
   padding: 35px 30px;
 }
 footer {
-  padding: 15px;
+  padding: 15px 0px;
   font-size: 18px;
   background-color: black;
   text-align: center;

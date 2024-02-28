@@ -1,0 +1,44 @@
+@media (max-width: 600px) {
+  .text1 {
+    padding: 50px 50px 0px 50px;
+    text-align: center;
+  }
+
+  #text {
+    font-size: 38px;
+  }
+
+  #name {
+    font-size: 25px;
+  }
+
+  .text2 {
+    padding: 0px 50px;
+    text-align: center;
+  }
+
+  .text2,
+  h1 {
+    font-size: 38px;
+  }
+
+  #description1 {
+    font-size: 50px;
+    font-weight: 100;
+  }
+
+  .work {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: column;
+  }
+  .contactme {
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: center;
+  }
+}
