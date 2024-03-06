@@ -63,7 +63,7 @@ h1 {
 }
 .about {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  
 }
 .contact {
   background-color: #515603;
